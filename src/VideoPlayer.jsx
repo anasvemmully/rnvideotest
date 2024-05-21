@@ -67,7 +67,7 @@ const VideoPlayer = forwardRef(
          * the selectedVideoTrack prop value
          */
         selectedVideoTrack={{
-          type: 'resolution',
+          type: 'index', //try changing this to 'resolution'/'index'
           value: resolution,
         }}
         onLoadStart={e => {

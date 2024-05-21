@@ -19,9 +19,9 @@ const ResoutionButton = onPress => {
 };
 
 const App = () => {
-  const [resolution, setResolution] = useState(480);
+  const [resolution, setResolution] = useState(0);
 
-  const availableResoltion = [288, 360, 480, 720, 1080];
+  const availableResoltion = [0, 1, 2, 3, 4]; // try changing this with resolution or index track
 
   return (
     <View style={{flex: 1, justifyContent: 'center'}}>
